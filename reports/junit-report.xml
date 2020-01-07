@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name=";" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/cucumber-exempel-2/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.001183433">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.00026399">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.00070412">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000474878">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.000216255">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.000115437">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000174859">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000161025">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/cucumber-exempel-2/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000090924">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000070979">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000073371">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000645">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.00005925">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000051137">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000038739">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000061519">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/cucumber-exempel-2/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000094926">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000068906">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000088521">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000060837">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.000053149">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000060183">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000040094">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.0002404">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/cucumber-exempel-2/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000100398">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000051188">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000059849">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000055727">
+        </testcase>
+        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.00091685">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000086537">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000043183">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.000074812">
+        </testcase>
+    </testsuite>
+</testsuites>
