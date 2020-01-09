@@ -6,31 +6,23 @@ class CoffeeMachine {
   constructor() {
     this.pluggedIn = false;
     this.connectedToWater = false;
-    this.paydMoney = 0;
-    // these two properties in gram
-    this.amountOfCoffee = 0;
+    this.moneyPaid = 0;
+    this.pricePerCupofCoffee = 20 // in SEK
+
     // some settings
     this.coffeePerCup = 14; // in grams
-    this.pricePerCupofCoffee = 20 // in SEK
+    this.amountOfCoffeeBeans = 2000; //in grams
+    this.amountOfEspressoBeans = 2000; //in grams
   }
-
   // maintenance
 
   plugIn() {
     this.pluggedIn = true;
   }
-
   connectToWater() {
     this.connectedToWater = true;
   }
 
-  fillWithCoffee(amount) {
-    // add amount to total amount of 
-    // ground coffee in the machine
-    this.amountOfCoffee += amount;
-  }
-
-  
   pressStartButton() {
     // here we will need to call
     // a number of internal methods
@@ -40,7 +32,7 @@ class CoffeeMachine {
 
     // FOR NOW JUST RETURN "here's your coffee"
     // if there is enough money inserted
-    if (this.insertedMoney >= this.pricePerCup) {
+    if (this.paidMoney >= this.pricePerCup) {
       return "here's your coffee";
     }
   }
@@ -53,8 +45,20 @@ class CoffeeMachine {
   }
 
 
-  checkIfEnoughCoffeeForACup() {
-    return this.amountOfCoffee >= this.coffeePerCup;
+  checkIfEnoughCoffeeBeansForACup() {
+
+    return this.amountOfCoffeeBeans >= this.coffeePerCup;
+  }
+
+  fillWithCoffee(){
+
+    this.amountOfCoffeeBeans = 2000;
+  }
+
+  paidMoney(){
+
+    let payment = 20;
+
   }
 
 

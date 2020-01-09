@@ -42,61 +42,33 @@ module.exports = function () {
     );
   });
 
-  this.Given(/^that the machine has enough ground coffee$/, function () {
-    // newly unpacked machine
-    // so expect it to have no coffee
-    // and the result to be false
-    assert.deepEqual(
-      myMachine.checkIfEnoughCoffeeForACup(),
-      false,
-      'Expected a new machine to not have enough coffee'
-    );
-    // Now add some ground coffee to the machine
-    // (100 grams should be enough for a cup always)
-    myMachine.fillWithCoffee(2000);
-    // Then check again expect result to be true
-    assert.deepEqual(
-      myMachine.checkIfEnoughCoffeeForACup(),
+  this.Given(/^that the machine has enough coffeebeans to grind$/, function () {
+    // newly set-up machine
+   
+    assert.strictEqual(
+      myMachine.checkIfEnoughCoffeeBeansForACup(),
       true,
-      'Expected to have enough coffee for a cup (after filling it with 100 grams of ground coffee'
+      'Expected to have enough coffee for a cup'
     );
+   
   });
+  
+  this.When(/^the machine recieves sufficient funds$/, function() {
+   
+    myMachine.paidMoney();
 
- 
-  this.When(/^the user inserts a (\d+) kr coin$/, function (amountOfMoney) {
-
-    // Stupid Cucumber - sends the number
-    // as a string to our test function
-    // so convert it to a number (by dividing with 1)
-    amountOfMoney /= 1;
-
-    let moneyBefore = myMachine.insertedMoney;
-    myMachine.insertMoney(amountOfMoney);
-    assert.deepEqual(
-      myMachine.insertedMoney,
-      moneyBefore + amountOfMoney,
-      "Expected the amount of money inserted to increase with the amount inserted"
-    )
-  });
-
-  this.When(/^the machine recieves sufficient funds$/, function(paymentForCoffee) {
-    
-      let payment = myMachine.paydMoney;
-      myMachine.paydMoney(paymentForCoffee);
       assert.deepEqual(
-        actual, expected, "[message]");
+        myMachine.paidMoney,
+        myMachine.pricePerCup,
+         "There is enough money for coffee");
   });
 
   
   this.When(/^presses the "([^"]*)" button$/, function (buttonName) {
-    // Now this step handles presses on all
-    // buttons as long as you write their names
-    // inside quotes - is this good not necessarily
-    // because now this step will neeed to handle
-    // all button presses... (with conditional logic)
-    if (buttonName === 'start') {
-      // For now just say everything is fine
-      // (not a real test)
+  
+
+    if (buttonName === 'coffee') {
+     
       resultOfStartButton = myMachine.pressStartButton();
     }
     else {
@@ -105,7 +77,7 @@ module.exports = function () {
   });
 
 
-  this.Then(/^the user recieves (\d+) cup of coffee\.$/, function (cups) {
+  this.Then(/^the user recieves a cup of coffee\.$/, function (cups) {
     cups /= 1;
     // Ok time to test if we really get som coffee...
     // we we should and not if we shouldn't
