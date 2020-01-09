@@ -270,7 +270,7 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">cucumber-exempel-1</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 4</span>
+            <span class="label label-success" title=scenarios>Passed: 0</span>
             <span class="label label-danger" title=scenarios>Failed: 0</span>
           </div>
         </div>
@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Tue Jan 07 2020 13:54:52 GMT+0100 (Central European Standard Time)</div>
+      <div class="generated-on">Thu Jan 09 2020 09:41:53 GMT+0100 (Central European Standard Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -305,12 +305,12 @@ pre {
                         <i class="glyphicon glyphicon-chevron-down"></i>
                         <b>Feature:</b>
                         <span class="label-container">
-              <span class="label label-success"
-                                                         title="4 Scenarios Passed">4</span>
               
               
               
               
+              <span class="label label-warning"
+                                                          title="3 Scenarios Skipped">3</span>
               
                         </span>
                     </a>
@@ -319,7 +319,7 @@ pre {
             <div id="collapseFeaturecucumber_exempel_10" class="panel-collapse collapse">
                 <div class="panel-body">
                     
-                    <div class="description">  As a coffee buyer<br/>  I want a basic machine that<br/>  I can put a 10 kr coin in<br/>  and get a black cup of coffee back<br/>  because I crave caffeine.</div>
+                    <div class="description">  As a coffee buyer<br/>  I want a machine that can make<br/>  me tea, coffee and coffee with milk.</div>
                     
                     
                     <div class="panel panel-default">
@@ -334,7 +334,7 @@ pre {
                                    href="#collapseScenariocucumber_exempel_10_0">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>
@@ -342,10 +342,11 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="8 Steps Passed">8</span>
+                                                               title="2 Steps Passed">2</span>
                               
                               
-                              
+                              <span class="label label-warning"
+                                                                title="1 Steps Skipped">1</span>
                               
                               
                             </span>
@@ -374,7 +375,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               1ms
+                               < 1ms
                               </span>
                             
                          
@@ -436,17 +437,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> that the machine has enough ground coffee</span>
+                          <span> that the machine has enough coffeebeans to grind</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -455,6 +456,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^that the machine has enough coffeebeans to grind$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -472,17 +480,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> the machine has plastic cups</span>
+                          <span> has milk to add to coffee</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -491,6 +499,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^has milk to add to coffee$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -508,17 +523,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> the user inserts a 10 kr coin</span>
+                          <span> the machine recieves sufficient funds</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -544,17 +559,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> the user inserts a 0 kr coin</span>
+                          <span> choses type of coffee</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -563,6 +578,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^choses type of coffee$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -580,53 +602,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> presses the &quot;start&quot; button</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> the user recieves 1 cup of coffee.</span>
+                          <span> the user recieves a cup of tea.</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -635,6 +621,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^the user recieves a cup of tea.$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -665,7 +658,7 @@ pre {
                                    href="#collapseScenariocucumber_exempel_10_1">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>
@@ -673,10 +666,11 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="8 Steps Passed">8</span>
+                                                               title="2 Steps Passed">2</span>
                               
                               
-                              
+                              <span class="label label-warning"
+                                                                title="1 Steps Skipped">1</span>
                               
                               
                             </span>
@@ -767,17 +761,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> that the machine has enough ground coffee</span>
+                          <span> that the machine has enough coffeebeans to grind</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -786,6 +780,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^that the machine has enough coffeebeans to grind$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -803,17 +804,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> the machine has plastic cups</span>
+                          <span> has milk to add to coffee</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -822,6 +823,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^has milk to add to coffee$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -839,17 +847,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> the user inserts a 5 kr coin</span>
+                          <span> the machine recieves sufficient funds</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -875,17 +883,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> the user inserts a 5 kr coin</span>
+                          <span> choses type of coffee</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -894,6 +902,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^choses type of coffee$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -911,53 +926,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> presses the &quot;start&quot; button</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> the user recieves 1 cup of coffee.</span>
+                          <span> the user recieves a cup of coffee.</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -966,6 +945,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^the user recieves a cup of coffee.$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -996,7 +982,7 @@ pre {
                                    href="#collapseScenariocucumber_exempel_10_2">
                                     <div>
 
-                                        <div style="padding-right: 30px">
+                                        <div style="padding-right: 50px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>
@@ -1004,10 +990,11 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="8 Steps Passed">8</span>
+                                                               title="2 Steps Passed">2</span>
                               
                               
-                              
+                              <span class="label label-warning"
+                                                                title="1 Steps Skipped">1</span>
                               
                               
                             </span>
@@ -1098,17 +1085,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> that the machine has enough ground coffee</span>
+                          <span> that the machine has enough coffeebeans to grind</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -1117,6 +1104,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^that the machine has enough coffeebeans to grind$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -1134,17 +1128,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> the machine has plastic cups</span>
+                          <span> has milk to add to coffee</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -1153,6 +1147,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^has milk to add to coffee$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -1170,17 +1171,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">When </span>
-                          <span> the user inserts a 1 kr coin</span>
+                          <span> the machine recieves sufficient funds</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -1206,17 +1207,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">And </span>
-                          <span> the user inserts a 1 kr coin</span>
+                          <span> choses type of coffee</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -1225,6 +1226,13 @@ pre {
                       </span>
                                 
                                 
+                                <pre class=info>
+<br>Then(/^choses type of coffee$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
 
                                     
 
@@ -1242,53 +1250,17 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> presses the &quot;start&quot; button</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
                                     
                                     
                                     <span class="text">
                         <span class="keyword highlight">Then </span>
-                          <span> the user recieves 0 cup of coffee.</span>
+                          <span> the user recieves a cup of coffee with milk.</span>
                             
                           
                               <span class="step-duration">
-                               < 1ms
+                               0s
                               </span>
                             
                          
@@ -1297,337 +1269,13 @@ pre {
                       </span>
                                 
                                 
-
+                                <pre class=info>
+<br>Then(/^the user recieves a cup of coffee with milk.$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
                                     
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                
-                                
-                                <div class="tags">
-                                </div>
-                                
-                                <a data-toggle="collapse"
-                                   href="#collapseScenariocucumber_exempel_10_3">
-                                    <div>
-
-                                        <div style="padding-right: 30px">
-                                            <i class="glyphicon glyphicon-chevron-right"></i>
-                                            <i class="glyphicon glyphicon-chevron-down"></i>
-                                            <b>Scenario:</b>
-                                        </div>
-                                        <div>
-                            <span class="label-container">
-                              <span class="label label-success"
-                                                               title="8 Steps Passed">8</span>
-                              
-                              
-                              
-                              
-                              
-                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseScenariocucumber_exempel_10_3"
-                             class="panel-collapse collapse">
-                            <div class="panel-body">
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">Given </span>
-                          <span> that the machine is plugged in</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> that water is available</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> that the machine has enough ground coffee</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> the machine has plastic cups</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">When </span>
-                          <span> the user inserts a &quot;byxknapp&quot; kr coin</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> the user inserts a 1 kr coin</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> presses the &quot;start&quot; button</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">Then </span>
-                          <span> the user recieves 0 cup of coffee.</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
 
                                     
 
@@ -1679,20 +1327,20 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
                                                             "failed" : 0,
-                                                            "passed" : 1,
+                                                            "passed" : 0,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
-                                                            "skipped" : 0,
+                                                            "skipped" : 1,
                                                             "ambiguous" : 0
                                                         })
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
                                                             "failed" : 0,
-                                                            "passed" : 4,
+                                                            "passed" : 0,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
-                                                            "skipped" : 0,
+                                                            "skipped" : 3,
                                                             "ambiguous" : 0
                                                         })
                                             });

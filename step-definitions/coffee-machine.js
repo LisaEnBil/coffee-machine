@@ -53,7 +53,7 @@ module.exports = function () {
     );
     // Now add some ground coffee to the machine
     // (100 grams should be enough for a cup always)
-    myMachine.fillWithCoffee(100);
+    myMachine.fillWithCoffee(2000);
     // Then check again expect result to be true
     assert.deepEqual(
       myMachine.checkIfEnoughCoffeeForACup(),
@@ -62,25 +62,7 @@ module.exports = function () {
     );
   });
 
-  this.Given(/^the machine has plastic cups$/, function () {
-    // newly unpacked machine
-    // so expect it to have no plastic cups
-    // and the result to be false
-    assert.deepEqual(
-      myMachine.checkIfAnyCupsLeft(),
-      false,
-      'Expected a new machine to not have enough coffee'
-    );
-    // Now add some cups
-    myMachine.fillWithCups(2);
-    // Then check again expect result to be true
-    assert.deepEqual(
-      myMachine.checkIfAnyCupsLeft(),
-      true,
-      'Expected the machine to have at least one cup after filling with two cups'
-    );
-  });
-
+ 
   this.When(/^the user inserts a (\d+) kr coin$/, function (amountOfMoney) {
 
     // Stupid Cucumber - sends the number
@@ -97,32 +79,15 @@ module.exports = function () {
     )
   });
 
-  // Note: Cucumber translates when we try
-  // to send something no numeric to a different
-  // step than the step above!
-  this.When(/^the user inserts a "([^"]*)" kr coin$/, function (nonMoney) {
-
-    // Stupid Cucumber/assert library
-    // the function used with assert.throws
-    // can not use local variables...
-    // So we have to make nonMoney an global
-    global.nonMoney = nonMoney
-
-    assert.throws(
-      // A function to run in which we expect
-      // the program to throw a certain error
-      function () {
-        myMachine.insertMoney(global.nonMoney);
-      },
-      // The error type we expect
-      Error,
-      // The error we expect the program to throw
-      'You must insert money not ' + nonMoney,
-      // Message in test report
-      'Expected the runtime error "You must insert money not ' + nonMoney + '"'
-    );
+  this.When(/^the machine recieves sufficient funds$/, function(paymentForCoffee) {
+    
+      let payment = myMachine.paydMoney;
+      myMachine.paydMoney(paymentForCoffee);
+      assert.deepEqual(
+        actual, expected, "[message]");
   });
 
+  
   this.When(/^presses the "([^"]*)" button$/, function (buttonName) {
     // Now this step handles presses on all
     // buttons as long as you write their names

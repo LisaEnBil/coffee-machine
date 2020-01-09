@@ -6,13 +6,12 @@ class CoffeeMachine {
   constructor() {
     this.pluggedIn = false;
     this.connectedToWater = false;
-    this.numberOfCups = 0;
-    this.insertedMoney = 0;
+    this.paydMoney = 0;
     // these two properties in gram
     this.amountOfCoffee = 0;
     // some settings
-    this.coffeePerCup = 13; // in grams
-    this.pricePerCup = 10 // in SEK
+    this.coffeePerCup = 14; // in grams
+    this.pricePerCupofCoffee = 20 // in SEK
   }
 
   // maintenance
@@ -31,23 +30,7 @@ class CoffeeMachine {
     this.amountOfCoffee += amount;
   }
 
-  fillWithCups(amount) {
-    // add amount of cups to the
-    // total number of cups in the machine
-    this.numberOfCups += amount;
-  }
-
-  // user choices
-
-  insertMoney(inserted) {
-    // add inserted money to total
-    // money inserted so far
-    if (typeof inserted !== 'number') {
-      throw (new Error('You must insert money not ' + nonMoney));
-    }
-    this.insertedMoney += inserted;
-  }
-
+  
   pressStartButton() {
     // here we will need to call
     // a number of internal methods
@@ -69,21 +52,11 @@ class CoffeeMachine {
     // heat water... etc
   }
 
-  dispenseCup() {
-
-  }
-
-  dispenseCoffee() {
-
-  }
 
   checkIfEnoughCoffeeForACup() {
     return this.amountOfCoffee >= this.coffeePerCup;
   }
 
-  checkIfAnyCupsLeft() {
-    return this.numberOfCups >= 1;
-  }
 
 }
 
