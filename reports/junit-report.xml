@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="coffee-machine;use-coffee-machine-to-buy-coffee" tests="6" failures="1" skipped="2">
+    <testsuite name="coffee-machine;use-coffee-machine-to-buy-coffee" tests="6" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000837333">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000825321">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000167389">
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000227536">
         </testcase>
-        <testcase name="And that the machine has enough coffeebeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000195618">
+        <testcase name="And that the machine has enough coffeebeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000181093">
         </testcase>
-        <testcase name="When the machine recieves sufficient funds" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.001878424">
-            <failure message="AssertionError: There is enough money for coffee: expected [Function: paidMoney] to deeply equal undefined">AssertionError: There is enough money for coffee: expected [Function: paidMoney] to deeply equal undefined
-    at Function.assert.deepEqual (/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/node_modules/chai/lib/chai/interface/assert.js:216:32)
-    at createWorld.&lt;anonymous&gt; (/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:68:14)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="When the machine recieves sufficient funds" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.000154906">
         </testcase>
-        <testcase name="And presses the &lt;coffee&gt; button" classname="coffee-machine;use-coffee-machine-to-buy-coffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="And presses the coffee button" classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.001492058">
         </testcase>
-        <testcase name="Then the user recieves a cup of coffee." classname="coffee-machine;use-coffee-machine-to-buy-coffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the user recieves a cup of coffee." classname="coffee-machine;use-coffee-machine-to-buy-coffee" time="0.0003685">
         </testcase>
     </testsuite>
 </testsuites>

@@ -55,46 +55,39 @@ module.exports = function () {
   
   this.When(/^the machine recieves sufficient funds$/, function() {
    
-    myMachine.paidMoney();
+    priceForCoffeeCup = 20;
+   
 
-      assert.deepEqual(
-        myMachine.paidMoney,
-        myMachine.pricePerCup,
+      assert.strictEqual(
+        myMachine.paidMoney(),
+        priceForCoffeeCup,
          "There is enough money for coffee");
   });
 
   
-  this.When(/^presses the "([^"]*)" button$/, function (buttonName) {
+  this.When(/^presses the coffee button$/, function () {
   
+      resultOfStartButton = myMachine.pressCoffeeButton();
 
-    if (buttonName === 'coffee') {
-     
-      resultOfStartButton = myMachine.pressStartButton();
-    }
-    else {
-      assert(false, "The only button on this machine should be the start button")
-    }
+      assert.strictEqual(
+        myMachine.pressCoffeeButton(),
+        false,
+         "no coffee for you young man");
+    
   });
 
 
-  this.Then(/^the user recieves a cup of coffee\.$/, function (cups) {
-    cups /= 1;
+  this.Then(/^the user recieves a cup of coffee\.$/, function () {
+    
     // Ok time to test if we really get som coffee...
     // we we should and not if we shouldn't
-    if (cups === 1) {
+    myMachine.brewCoffee();
       assert.deepEqual(
-        resultOfStartButton,
-        "here's your coffee",
-        "Didn't get any coffee? You should. We inserted enough."
+        myMachine.hotCoffee,
+        true,
+        "no coffee for you young man"
       );
-    }
-    else {
-      assert.notDeepEqual(
-        resultOfStartButton,
-        "here's your coffee",
-        "Did you get coffee? You shouldn't. We didn't insert enough money!"
-      );
-    }
+    
 
   });
 

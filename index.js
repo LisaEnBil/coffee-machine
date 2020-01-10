@@ -6,8 +6,10 @@ class CoffeeMachine {
   constructor() {
     this.pluggedIn = false;
     this.connectedToWater = false;
-    this.moneyPaid = 0;
-    this.pricePerCupofCoffee = 20 // in SEK
+    this.moneyPaid = 20;
+    this.pricePerCupofCoffee = 20; // in SEK
+    this.hotCoffee = false;
+    
 
     // some settings
     this.coffeePerCup = 14; // in grams
@@ -23,27 +25,6 @@ class CoffeeMachine {
     this.connectedToWater = true;
   }
 
-  pressStartButton() {
-    // here we will need to call
-    // a number of internal methods
-    // (se below)
-    // in the correcto order
-    // and abort if not enough coffee etc
-
-    // FOR NOW JUST RETURN "here's your coffee"
-    // if there is enough money inserted
-    if (this.paidMoney >= this.pricePerCup) {
-      return "here's your coffee";
-    }
-  }
-
-  // internals
-
-  brewCoffee() {
-    // one cup at a time
-    // heat water... etc
-  }
-
 
   checkIfEnoughCoffeeBeansForACup() {
 
@@ -57,7 +38,29 @@ class CoffeeMachine {
 
   paidMoney(){
 
-    let payment = 20;
+   return this.moneyPaid = 20;
+  }
+
+  pressCoffeeButton() {
+    // here we will need to call
+    // a number of internal methods
+    // (se below)
+    // in the correcto order
+    // and abort if not enough coffee etc
+
+    // FOR NOW JUST RETURN "here's your coffee"
+    // if there is enough money inserted
+    
+    return this.moneyPaid >= this.pricePerCupOfCoffee;
+       
+    
+  }
+
+  // internals
+
+  brewCoffee() {
+    
+   return this.hotCoffee = true;
 
   }
 
