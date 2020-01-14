@@ -1,10 +1,11 @@
 [
   {
+    "description": "  As a user I want to buy different sorts of coffee",
     "elements": [
       {
         "id": "coffee-machine;use-coffee-machine-to-buy-coffee",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 17,
         "name": "Use coffee-machine to buy coffee",
         "steps": [
           {
@@ -13,11 +14,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 825321
+              "duration": 862702
             },
             "line": 5,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:17"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:26"
             }
           },
           {
@@ -26,63 +27,75 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 227536
+              "duration": 184562
             },
             "line": 6,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:34"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:43"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough coffeebeans to grind",
+            "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 181093
+              "duration": 497342
             },
             "line": 7,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:45"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "has enough coffeebeans to grind",
+            "result": {
+              "status": "passed",
+              "duration": 160141
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:85"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the machine recieves sufficient funds",
+            "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 154906
+              "duration": 210684
             },
-            "line": 8,
+            "line": 11,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:56"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:105"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the coffee button",
+            "name": "the user pays the 20 kr",
             "result": {
               "status": "passed",
-              "duration": 1492058
+              "duration": 267057
             },
-            "line": 9,
+            "line": 12,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:68"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:133"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves a cup of coffee.",
+            "name": "the machine will prepare coffee",
             "result": {
-              "status": "passed",
-              "duration": 368500
+              "status": "pending"
             },
-            "line": 10,
+            "line": 13,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:80"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:167"
             }
           },
           {
@@ -90,7 +103,231 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 738265914
+              "duration": 1234690548
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffee-machine;use-coffee-machine-to-buy-coffee",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Use coffee-machine to buy coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 106771
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 63702
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has lactosfree milk",
+            "result": {
+              "status": "passed",
+              "duration": 78732
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "has enough espressobeans to grind",
+            "result": {
+              "status": "passed",
+              "duration": 142298
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user chooses from the menu",
+            "result": {
+              "status": "passed",
+              "duration": 43257
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user pays the 25 kr",
+            "result": {
+              "status": "passed",
+              "duration": 67099
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine will prepare cappucino",
+            "result": {
+              "status": "pending"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 723909796
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffee-machine;use-coffee-machine-to-buy-coffee",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Use coffee-machine to buy coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 88132
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 52525
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has lactosfree milk",
+            "result": {
+              "status": "passed",
+              "duration": 52824
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "has enough espressobeans to grind",
+            "result": {
+              "status": "passed",
+              "duration": 46267
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user chooses from the menu",
+            "result": {
+              "status": "passed",
+              "duration": 30501
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user pays the 20 kr",
+            "result": {
+              "status": "passed",
+              "duration": 82005
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine will prepare espresso",
+            "result": {
+              "status": "pending"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:177"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 719435284
             },
             "hidden": true,
             "match": {
