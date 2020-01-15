@@ -14,7 +14,7 @@ Feature: Coffee-machine
 
     Examples:
       | menu      | beans         | sum |
-      | coffee    | coffeebeans   | 20  |
+      | coffee    | coffeebeans   | 20  | 
       | cappucino | espressobeans | 25  |
       | espresso  | espressobeans | 20  |
 
@@ -23,8 +23,20 @@ Feature: Coffee-machine
     When the user chooses a cappucino
     And pays the 25 kr 
     Then the machine will prepare a delicious cappucino 
+
+  Scenario Outline: Paying for coffee when user forgot his/hers wallet 
+    Given that the user wants to buy coffee
+    When the user chooses coffee
+    And the user pays using <paymentmethods>
+    Then the machine prepares coffee
+
+    Examples: 
+      |paymentmethods|
+      |swish         |
+      |card          |
+  
     
-  Scenario: The coffe-machine is cleaning itself between uses
+  Scenario: The coffee-machine is cleaning itself between uses
     Given that nobody buys coffee
     And that it has been 30 min since last cleaning
     Then it will use steaming hot water

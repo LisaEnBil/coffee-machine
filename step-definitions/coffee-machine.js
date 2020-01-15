@@ -38,7 +38,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.pluggedIn,
       true,
-      'Expected the property pluggedIn to be true after calling the plugIn() method.'
+      'Machine is not powered on or connected to electricity'
     );
   });
 
@@ -49,7 +49,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.connectedToWater,
       true,
-      'Expected the property connectedToWater to be true after calling the connectToWater() method.'
+      'Not connected to water'
     );
   });
 
@@ -59,7 +59,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.checkIfEnoughCoffeeBeansForACup(),
       true,
-      'Expected to have enough coffee for a cup'
+      'Not enough coffee for a cup'
     );
    
   });
@@ -89,7 +89,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.checkIfEnoughCoffeeBeansForACup(),
       true,
-      'Expected to have enough coffee for a cup'
+      'Not enough coffee for a cup'
     );
 
   });
@@ -100,7 +100,7 @@ module.exports = function () {
     assert.strictEqual(
     myMachine.checkIfEnoughEspressoBeansForACup(),
     true,
-    'Expected to have enough espressobeans for a cup'
+    'Not enough espressobeans for a cup'
     );
   });
 
@@ -172,7 +172,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.hotCoffee,
       true,
-      "There you go"
+      "No coffee for you"
     )
 
   });
@@ -183,7 +183,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.deliciousCappucino,
       true,
-      "There you go"
+      "No coffee for you"
     )
 
   });
@@ -194,7 +194,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.spicyHotEspresso,
       true,
-      "There you go"
+      "No coffee for you"
     )
 
   });
@@ -242,11 +242,74 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.deliciousCappucino,
       true,
-      "There you go"
+      "No coffee for you"
     )
   });
 
-  ///Scenario cleaning itself
+  ///Scenario paying for coffee when user forgot his/hers wallet 
+
+
+  this.Given(/^that the user wants to buy coffee$/, function () {
+    
+    myMachine.userWantsCoffee();
+
+    assert.strictEqual(
+      myMachine.userCoffee,
+      true,
+      "User don't want coffee"
+    )
+
+  });
+
+  this.When(/^the user chooses coffee$/, function () {
+   
+    myMachine.menu()
+
+    coffee = myMachine.coffeeAndPrices.coffee;
+    assert.deepEqual(
+    myMachine.menu.coffeeAndPrices, 
+    coffee,
+    "There will be no coffee for you");
+
+  });
+
+  this.When(/^the user pays using swish$/, function () {
+   
+    myMachine.payment();
+
+      myMachine.payment.Swish = true;
+
+      assert.deepEqual(
+        myMachine.payment.Swish, 
+        true, 
+        "You can't pay using swish, try using card");
+  });
+
+  this.When(/^the user pays using card$/, function () {
+   
+    myMachine.payment();
+
+    myMachine.payment.Card = true;
+
+    assert.deepEqual(
+      myMachine.payment.Card, 
+      true, 
+      "You can't pay using card, try swish");
+
+  });
+
+  this.Then(/^the machine prepares coffee$/, function () {
+    
+    myMachine.brewCoffee();
+
+    assert.deepEqual(
+      myMachine.hotCoffee, 
+      true, 
+      "You don't get any coffee");
+  });
+
+
+  ///Scenario The coffee-machine is cleaning itself between uses
 
   this.Given(/^that nobody buys coffee$/, function () {
     
