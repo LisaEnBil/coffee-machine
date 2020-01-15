@@ -31,6 +31,11 @@ class CoffeeMachine {
       Espresso: 20
     };
 
+    this.paymentMethods = {
+      Swish: false, 
+      Card:false
+    };
+
   
     this.machineCantBeUsedWhileCleaning = false;
     this.timeToNextClean = 30; 
@@ -100,6 +105,19 @@ class CoffeeMachine {
     }
   }
 
+  payment(){
+    
+   if (this.paymentMethods.Swish){
+
+     return Swish; 
+   }
+
+   else if(this.paymentMethods.Card){
+     return Card;
+   }
+
+  }
+
   menu() {
 
     if (this.coffeeAndPrices.coffee) {
@@ -158,6 +176,13 @@ class CoffeeMachine {
     return this.cleaning;
 
   }
+
+  userWantsCoffee(){
+    this.userCoffee = true;
+
+      return this.userCoffee;
+  }
+
 
 }
 
