@@ -1,29 +1,34 @@
 Feature: Coffee-machine
   As a user I want to buy different sorts of coffee
 
-  Background: Buying coffee/cappucino/espresso
+  Background: Buying some sort of coffee-drink
     Given that the machine is plugged in
     And that water is available
     And that the machine has lactosfree milk
 
-  Scenario Outline: Use coffee-machine to buy coffee/cappucino/espresso
+  Scenario Outline: Use coffee-machine to buy different sorts of coffee
     Given has enough <beans> to grind
     When the user chooses from the menu
     And the user pays the <sum> kr
     Then the machine will prepare <menu>
 
     Examples:
-      | menu      | beans         | sum |
-      | coffee    | coffeebeans   | 20  | 
-      | cappucino | espressobeans | 25  |
-      | espresso  | espressobeans | 20  |
+      | menu         | beans         | sum |
+      | coffee       | coffeebeans   | 20  | 
+      | coffee w milk| coffeebeans   | 20  |
+      | cappucino    | espressobeans | 25  |
+      | espresso     | espressobeans | 20  |
+      | macchiato    | espressobeans | 25  |
+      | latte        | espressobeans | 30  |
+      | cortado      | espressobeans | 30  |
       
 
-  Scenario: Buying a cappucino with milk
+  Scenario: Buying a cappucino
     Given that the milk is cold enough
     When the user chooses a cappucino
     And pays the 25 kr 
-    Then the machine will prepare a delicious cappucino 
+    Then the machine will prepare, and serve, a delicious cappucino 
+    
 
   Scenario Outline: Paying for coffee when user forgot his/hers wallet 
     Given that the user wants to buy coffee
@@ -73,5 +78,20 @@ Feature: Coffee-machine
     And the coffee-machine goes offline for some time
     Then the machine won't produce cappucino because of risk of bacteria in warm milk
     And the card-reader will send a pre-programmed message to who-evers responsible for the card-reader
+
+  Scenario: User wants to buy regular coffee but there is not enough beans
+    Given that the user wants coffee
+    And  that there is less than 14 grams coffeebeans left in coffeebean-container
+    When the user sees the coffee-menu on screen
+    Then the machine shows the alternatives that uses regular coffeebeans as shadowed
+    And un-choosable
+
+  Scenario: User wants to buy a drink which contains milk, but there is not enough milk left
+    Given that user want drink with milk
+    And that there is to little milk left
+    When the user sees the coffee-menu on screen
+    Then the machine shows the alternatives containing milk as shadowed
+    And un-choosable
+
     
     

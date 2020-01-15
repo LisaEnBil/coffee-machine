@@ -11,6 +11,11 @@ class CoffeeMachine {
     this.hotCoffee = false;
     this.deliciousCappucino = false;
     this.spicyHotEspresso = false;
+    this.spicyHotEspresso = false;
+    this.createMacchiato = false;
+    this.createCoffeeWMilk = false;
+    this.createLatte = false;
+    this.createCortado = false;
     this.enoughMilkForCap = 90;
     this.lactosfreeMilk = 2000; //in ml
     this.skimmedMilk = false;
@@ -27,8 +32,13 @@ class CoffeeMachine {
     this.coffeeAndPrices = {
 
       Coffee: 20,
+      CoffeeWithMilk: 20,
       Cappucino: 25,
-      Espresso: 20
+      Espresso: 20,
+      Macchiato: 25,
+      Latte: 30,
+      Cortado: 20
+
     };
 
     this.paymentMethods = {
@@ -84,6 +94,26 @@ class CoffeeMachine {
   makeEspresso(){
 
     return this.spicyHotEspresso = true;
+    
+  }
+  makeMacchiato(){
+
+    return this.createMacchiato = true;
+    
+  }
+  makeLatte(){
+
+    return this.createLatte = true;
+    
+  }
+  makeCortado(){
+
+    return this.createCortado = true;
+    
+  }
+  makeCoffeeWithMilk(){
+    return this.createCoffeeWMilk = true;
+    
   }
 
   enoughMilkForCappucino() {

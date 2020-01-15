@@ -10,11 +10,19 @@ let myMachine;
 let coffee;
 let cappucino;
 let espresso;
+let coffeeWithMilk;
+let latte;
+let macchiato;
+let cortado;
 //let menuChoice;
 
 let priceOfCoffee = 20;
 let priceOfCappucino = 25;
 let priceOfEspresso = 20;
+let priceOfCoffeWithMilk = 20;
+let priceOfMacchiato = 25;
+let priceOfLatte = 30;
+let priceOfCortado = 20;
 
 let coolMilk = 3; //° in Celsius
 
@@ -109,26 +117,56 @@ module.exports = function () {
     myMachine.menu()
 
     if (coffee){
-    coffee = myMachine.coffeeAndPrices.coffee;
+    coffee = myMachine.coffeeAndPrices.Coffee;
     assert.deepEqual(
     myMachine.menu.coffeeAndPrices, 
     coffee,
     "There will be no coffee for you");
     }
     else if (cappucino){
-    cappucino = myMachine.coffeeAndPrices.cappucino;
+    cappucino = myMachine.coffeeAndPrices.Cappucino;
     assert.deepEqual(
     myMachine.menu.coffeeAndPrices, 
     cappucino,
     "There will be no cappucino for you");
     }
     else if (espresso){
-    espresso = myMachine.menu.coffeeAndPrices.espresso;
+    espresso = myMachine.menu.coffeeAndPrices.Espresso;
     assert.deepEqual(
     myMachine.menu.coffeeAndPrices, 
     espresso,
     "There will be no espresso for you");
     }
+
+    else if (coffeeWithMilk){
+      coffeeWithMilk = myMachine.menu.coffeeAndPrices.CoffeeWithMilk;
+      assert.deepEqual(
+      myMachine.menu.coffeeAndPrices, 
+      coffeeWithMilk,
+      "There will be no coffee with milk for you");
+      }
+
+    else if (macchiato){
+      macchiato = myMachine.menu.coffeeAndPrices.Macchiato;
+      assert.deepEqual(
+      myMachine.menu.coffeeAndPrices, 
+      macchiato,
+      "There will be no macchiato for you");
+      }
+    else if (latte){
+      latte = myMachine.menu.coffeeAndPrices.Latte;
+      assert.deepEqual(
+      myMachine.menu.coffeeAndPrices, 
+      latte,
+      "There will be no macchiato for you");
+        }
+    else if (cortado){
+      cortado = myMachine.menu.coffeeAndPrices.Cortado;
+      assert.deepEqual(
+      myMachine.menu.coffeeAndPrices, 
+      cortado,
+      "There will be no macchiato for you");
+      }
      
   });
 
@@ -164,6 +202,41 @@ module.exports = function () {
     "You don't have enough money for a cup."
     )}
 
+    else if (priceOfCoffeWithMilk){
+      priceOfCoffeWithMilk = myMachine.coffeeAndPrices.coffeeWithMilk;
+  
+      assert.strictEqual(
+      myMachine.menu.coffeeAndPrices,
+      priceOfCoffeWithMilk,
+      "You don't have enough money for a cup."
+      )}
+
+      else if (priceOfMacchiato){
+        priceOfMacchiato = myMachine.coffeeAndPrices.Macchiato;
+    
+        assert.strictEqual(
+        myMachine.menu.coffeeAndPrices,
+        priceOfMacchiato,
+        "You don't have enough money for a cup."
+        )}
+
+     else if (priceOfLatte){
+      priceOfLatte = myMachine.coffeeAndPrices.Latte;
+      
+        assert.strictEqual(
+        myMachine.menu.coffeeAndPrices,
+        priceOfLatte,
+        "You don't have enough money for a cup."
+      )}
+      else if (priceOfCortado){
+        priceOfCortado = myMachine.coffeeAndPrices.Cortado;
+        
+        assert.strictEqual(
+        myMachine.menu.coffeeAndPrices,
+        priceOfCortado,
+        "You don't have enough money for a cup."
+       )}
+
   });
 
   this.Then(/^the machine will prepare coffee$/, function () {
@@ -171,6 +244,17 @@ module.exports = function () {
 
     assert.strictEqual(
       myMachine.hotCoffee,
+      true,
+      "No coffee for you"
+    )
+
+  });
+
+  this.Then(/^the machine will prepare coffee w milk$/, function () {
+    myMachine.makeCoffeeWithMilk();
+
+    assert.strictEqual(
+      myMachine.createCoffeeWMilk,
       true,
       "No coffee for you"
     )
@@ -196,8 +280,37 @@ module.exports = function () {
       true,
       "No coffee for you"
     )
-
   });
+
+  this.Then(/^the machine will prepare macchiato$/, function () {
+    
+    myMachine.makeMacchiato();
+    assert.strictEqual(
+      myMachine.createMacchiato,
+      true,
+      "No coffee for you")
+  });
+
+    this.Then(/^the machine will prepare latte$/, function () {
+      myMachine.makeLatte();
+
+    assert.strictEqual(
+      myMachine.createLatte,
+      true,
+      "No coffee for you"
+      )
+
+    });
+
+    this.Then(/^the machine will prepare cortado$/, function () {
+      myMachine.makeCortado();
+
+      assert.strictEqual(
+        myMachine.createCortado,
+        true,
+        "No coffee for you"
+      )
+    });
 
   ///Scenario buy cappucino
 
@@ -236,7 +349,7 @@ module.exports = function () {
 
   });
 
-  this.Then(/^the machine will prepare a delicious cappucino$/, function () {
+  this.Then(/^the machine will prepare, and serve, a delicious cappucino$/, function () {
     myMachine.makeCappucino();
     
     assert.strictEqual(
