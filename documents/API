@@ -25,6 +25,7 @@ isTheMilkColdEnough? (Boolean)
 -	Does the milk have a temperature below 5°C?
 -	If not: chill the milk.
 
+
 howLongBetweenCleaning? (number)
 -	30 Minutes
 
@@ -45,10 +46,13 @@ sufficientFundsOnCard? (Boolean)
 didMachineRecieveSwish? (Boolean)
 -	If yes: brew the chosen coffee.
 
+unableToBuyCoffee(boolean)
+
+boilingWaterForCleaning(Boolean)
 
 ###Methods###
 
-chooseDrink ()
+menu ()
 -	Return value: string, type of coffee chosen.
 
 cancelBrew()

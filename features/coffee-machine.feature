@@ -18,8 +18,17 @@ Feature: Coffee-machine
       | cappucino | espressobeans | 25  |
       | espresso  | espressobeans | 20  |
 
-  Scenario: There is not enough beans for a cup of coffee
+  Scenario: Buying a cappucino with milk
+    Given that the milk is cold enough
+    When the user chooses a cappucino
+    And pays the 25 kr 
+    Then the machine will prepare a delicious cappucino 
     
-
+  Scenario: The coffe-machine is cleaning itself between uses
+    Given that nobody buys coffee
+    And that it has been 30 min since last cleaning
+    Then it will use steaming hot water
+    And the machine will clean itself
+    And it will take 1 minute
 
 

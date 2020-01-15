@@ -13,6 +13,10 @@ class CoffeeMachine {
     this.spicyHotEspresso = false;
     this.enoughMilkForCap = 90;
     this.lactosfreeMilk = 2000; //in ml
+    this.skimmedMilk = false;
+
+    this.milkTemperature = 6;
+    this.supposedMilkTemperature = 3;
 
     // some settings
     this.coffeePerCup = 14; // in grams
@@ -26,6 +30,15 @@ class CoffeeMachine {
       Cappucino: 25,
       Espresso: 20
     };
+
+  
+    this.machineCantBeUsedWhileCleaning = false;
+    this.timeToNextClean = 30; 
+    this.maxTimeBetweenCleaning = 30; //in minutes
+    this.boilingWater = false;
+    this.cleaningMachine = false;
+    this.cleaning = 1; //in minutes
+    
   
   }
   // maintenance
@@ -59,9 +72,10 @@ class CoffeeMachine {
   }
   makeCappucino(){
 
-    return this.deliciousCappucino = true;
+    return this.deliciousCappucino = true
 
   }
+
   makeEspresso(){
 
     return this.spicyHotEspresso = true;
@@ -98,6 +112,51 @@ class CoffeeMachine {
       return espresso;
 
     }
+  }
+
+  coldMilk(){
+    
+    if (this.milkTemperature > this.supposedMilkTemperature){
+
+      return this.milkTemperature = 3;
+    }
+
+  }
+  unableToBuyCoffee(){
+    
+    this.machineCantBeUsedWhileCleaning = true;
+
+  }
+
+  timeBetweenCleaning(){
+
+    if (this.timeToNextClean >= this.maxTimeBetweenCleaning){
+
+      return this.maxTimeBetweenCleaning;
+    }
+    else if (this.timeToNextClean < this.maxTimeBetweenCleaning){
+
+      return this.timeToNextClean;
+    }
+  }
+
+  cleanMachine(){
+
+    return this.cleaningMachine = true;
+  }
+
+  boilingWaterForCleaning(){
+
+    if (this.maxTimeBetweenCleaning){
+      return this.boilingWater = true;
+    }
+
+  }
+
+  cleaningTime(){
+
+    return this.cleaning;
+
   }
 
 }

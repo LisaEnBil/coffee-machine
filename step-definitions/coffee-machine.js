@@ -16,6 +16,9 @@ let priceOfCoffee = 20;
 let priceOfCappucino = 25;
 let priceOfEspresso = 20;
 
+let coolMilk = 3; //° in Celsius
+
+
 
 // Export the step-definitions
 // (tests) so that Cucumber can
@@ -129,10 +132,10 @@ module.exports = function () {
      
   });
 
-  this.When(/^the user pays the (\d+) kr$/, function (money) {
+  this.When(/^the user pays the (\d+) kr$/, function (priceOfCoffee) {
 
-    money /= 1;
-    myMachine.payForCoffee(money);
+    priceOfCoffee /= 1;
+    myMachine.payForCoffee(priceOfCoffee);
 
     if (priceOfCoffee){
     priceOfCoffee = myMachine.coffeeAndPrices.coffee
@@ -140,7 +143,7 @@ module.exports = function () {
     assert.deepEqual(
     myMachine.menu.coffeeAndPrices,
     priceOfCoffee,
-    "Du har inte tillräckligt med pengar för en kopp kaffe."
+    "You don't have enough money for a cup."
 
     )}
     else if (priceOfCappucino){
@@ -150,7 +153,7 @@ module.exports = function () {
     assert.strictEqual(
     myMachine.menu.coffeeAndPrices,
     priceOfCappucino,
-    "Du har inte tillräckligt med pengar för en cappucino."
+    "You don't have enough money for a cup."
     )}
     else if (priceOfEspresso){
     priceOfEspresso = myMachine.coffeeAndPrices.espresso;
@@ -158,7 +161,7 @@ module.exports = function () {
     assert.strictEqual(
     myMachine.menu.coffeeAndPrices,
     priceOfEspresso,
-    "Du har inte tillräckligt med pengar för en kopp kaffe."
+    "You don't have enough money for a cup."
     )}
 
   });
@@ -169,7 +172,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.hotCoffee,
       true,
-      "Var så god"
+      "There you go"
     )
 
   });
@@ -180,7 +183,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.deliciousCappucino,
       true,
-      "Var så god"
+      "There you go"
     )
 
   });
@@ -191,9 +194,118 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.spicyHotEspresso,
       true,
-      "Var så god"
+      "There you go"
     )
 
   });
+
+  ///Scenario buy cappucino
+
+  this.Given(/^that the milk is cold enough$/, function () {
+
+    myMachine.coldMilk();
+   
+    assert.equal(myMachine.milkTemperature,
+      coolMilk, 
+      "The milk isn't cool enough");
+
+  });
+
+  this.When(/^the user chooses a cappucino$/, function () {
+    
+    myMachine.menu();
+
+    cappucino = myMachine.coffeeAndPrices.cappucino;
+    assert.deepEqual(
+    myMachine.menu.coffeeAndPrices, 
+    cappucino,
+    "There will be no cappucino for you");
+
+  });
+
+  this.When(/^pays the (\d+) kr$/, function (priceOfCappucino) {
+    priceOfCappucino /= 1;
+    myMachine.payForCoffee(priceOfCappucino);
+
+    priceOfCappucino = myMachine.coffeeAndPrices.cappucino;
+
+    assert.strictEqual(
+    myMachine.menu.coffeeAndPrices,
+    priceOfCappucino,
+    "You don't have enough money for a cappucino.");
+
+  });
+
+  this.Then(/^the machine will prepare a delicious cappucino$/, function () {
+    myMachine.makeCappucino();
+    
+    assert.strictEqual(
+      myMachine.deliciousCappucino,
+      true,
+      "There you go"
+    )
+  });
+
+  ///Scenario cleaning itself
+
+  this.Given(/^that nobody buys coffee$/, function () {
+    
+    myMachine.unableToBuyCoffee();
+
+    assert.strictEqual(
+      myMachine.machineCantBeUsedWhileCleaning,
+      true,
+      "Can't be used while cleaning"
+    )
+  });
+
+  this.Given(/^that it has been (\d+) min since last cleaning$/, function (minutes) {
+    minutes = 30;
+
+    myMachine.timeBetweenCleaning();
+
+    assert.deepEqual(
+      myMachine.timeToNextClean,
+      minutes, 
+      "No time for cleaning just yet");
+
+      assert.deepEqual(
+        myMachine.maxTimeBetweenCleaning,
+        minutes, 
+        "Time to clean");
+  });
+
+  this.Then(/^it will use steaming hot water$/, function () {
+   
+    myMachine.boilingWaterForCleaning();
+
+    assert.deepEqual(
+      myMachine.boilingWater,
+      true, 
+      "It's not cleaning");
+  });
+
+  this.Then(/^the machine will clean itself$/, function () {
+    myMachine.cleanMachine()
+
+    assert.deepEqual(
+      myMachine.cleaningMachine,
+      true,
+      "It's not cleaning")
+
+  });
+
+  this.Then(/^it will take (\d+) minute$/, function (minutes) {
+    minutes = 1;
+
+    myMachine.cleaningTime();
+
+    assert.deepEqual(
+      myMachine.cleaning, 
+      minutes,
+      "Cleaning takes longer than a minute, something is wrong");
+  });
+
+  
 
 }
