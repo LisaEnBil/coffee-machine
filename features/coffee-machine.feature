@@ -25,7 +25,7 @@ Feature: Coffee-machine
     And pays the 25 kr 
     Then the machine will prepare a delicious cappucino 
 
-  Scenario Outline: Paying for coffee using different methods 
+  Scenario Outline: Paying for coffee when user forgot his/hers wallet 
     Given that the user wants to buy coffee
     When the user chooses coffee
     And the user pays using <paymentmethods>
