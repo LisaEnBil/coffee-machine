@@ -1,0 +1,55 @@
+###Properties###
+
+poweredOn (Boolean)
+-	Is the machine powered on?
+
+continuousWaterSupply (Boolean)
+-	Is the machine connected to water?
+
+hasEnoughCoffeeBeans (Boolean)
+-	Is there enough coffeebeans for a cup?
+-	If not: message that say so on screen.
+
+hasEnoughEspressoBeans (Boolean)
+-	Is there enough espressobeans for a cup?
+-	If not: message that say so on screen.
+
+milkForCappucino (Boolean)
+-	Is there any milk for the coffee?
+-	If not: message that say that it still is possible to buy regular coffee.
+
+howManyGramsOfLactosfreeMilk? (number)
+-	Initial value: 4000 grams
+
+isTheMilkColdEnough? (Boolean)
+-	Does the milk have a temperature below 5°C?
+-	If not: chill the milk.
+
+howLongBetweenCleaning? (number)
+-	30 Minutes
+
+howManyGramsOfCoffeePerCup? (number)
+-	14 grams
+
+howMuchWaterPerCupOfCoffee? (number)
+-	200 grams
+
+
+howManyGramsOfGroundBeansPerCupEspresso? (number)
+-	17 grams
+
+sufficientFundsOnCard? (Boolean)
+-	If yes: brew the chosen coffee.
+-	If no: show message on card machine that says: “Insufficient Funds”
+
+didMachineRecieveSwish? (Boolean)
+-	If yes: brew the chosen coffee.
+
+
+###Methods###
+
+chooseDrink ()
+-	Return value: string, type of coffee chosen.
+
+cancelBrew()
+- Cancel brew.
