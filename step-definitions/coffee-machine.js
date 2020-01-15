@@ -7,7 +7,6 @@ let CoffeeMachine = require('../index.js');
 // Variables that we want to be able to
 // share between different steps
 let myMachine;
-let resultOfStartButton;
 let coffee;
 let cappucino;
 let espresso;
@@ -164,19 +163,37 @@ module.exports = function () {
 
   });
 
-  this.Then(/^the machine will prepare coffee$/, function (callback) {
-    // Write code here that turns the phrase above into concrete actions
-    callback(null, 'pending');
+  this.Then(/^the machine will prepare coffee$/, function () {
+    myMachine.brewCoffee();
+
+    assert.strictEqual(
+      myMachine.hotCoffee,
+      true,
+      "Var så god"
+    )
+
   });
 
-  this.Then(/^the machine will prepare cappucino$/, function (callback) {
-    // Write code here that turns the phrase above into concrete actions
-    callback(null, 'pending');
+  this.Then(/^the machine will prepare cappucino$/, function () {
+    myMachine.makeCappucino();
+
+    assert.strictEqual(
+      myMachine.deliciousCappucino,
+      true,
+      "Var så god"
+    )
+
   });
 
-  this.Then(/^the machine will prepare espresso$/, function (callback) {
-    // Write code here that turns the phrase above into concrete actions
-    callback(null, 'pending');
+  this.Then(/^the machine will prepare espresso$/, function () {
+    myMachine.makeEspresso();
+
+    assert.strictEqual(
+      myMachine.spicyHotEspresso,
+      true,
+      "Var så god"
+    )
+
   });
 
 }

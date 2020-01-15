@@ -7,7 +7,10 @@ class CoffeeMachine {
     this.pluggedIn = false;
     this.connectedToWater = false;
     this.pricePerCupofCoffee = 20; // in SEK
+    //this.teaWater = false;
     this.hotCoffee = false;
+    this.deliciousCappucino = false;
+    this.spicyHotEspresso = false;
     this.enoughMilkForCap = 90;
     this.lactosfreeMilk = 2000; //in ml
 
@@ -54,6 +57,16 @@ class CoffeeMachine {
     return this.hotCoffee = true;
 
   }
+  makeCappucino(){
+
+    return this.deliciousCappucino = true;
+
+  }
+  makeEspresso(){
+
+    return this.spicyHotEspresso = true;
+  }
+
   enoughMilkForCappucino() {
 
     return this.lactosfreeMilk >= this.enoughMilkForCap;

@@ -18,7 +18,8 @@ Feature: Coffee-machine
       | cappucino | espressobeans | 25  |
       | espresso  | espressobeans | 20  |
 
-
+  Scenario: There is not enough beans for a cup of coffee
+    
 
 
 

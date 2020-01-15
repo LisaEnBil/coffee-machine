@@ -38,10 +38,6 @@ howMuchWaterPerCupOfCoffee? (number)
 howManyGramsOfGroundBeansPerCupEspresso? (number)
 -	17 grams
 
-howManyMilliliterOfMilkInCoffeeWithMilk? (number)
--	20 grams
-
-
 sufficientFundsOnCard? (Boolean)
 -	If yes: brew the chosen coffee.
 -	If no: show message on card machine that says: “Insufficient Funds”

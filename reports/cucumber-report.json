@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 862702
+              "duration": 672369
             },
             "line": 5,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 184562
+              "duration": 140695
             },
             "line": 6,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 497342
+              "duration": 274688
             },
             "line": 7,
             "match": {
@@ -53,7 +53,7 @@
             "name": "has enough coffeebeans to grind",
             "result": {
               "status": "passed",
-              "duration": 160141
+              "duration": 148613
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 210684
+              "duration": 164354
             },
             "line": 11,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the user pays the 20 kr",
             "result": {
               "status": "passed",
-              "duration": 267057
+              "duration": 154169
             },
             "line": 12,
             "match": {
@@ -91,7 +91,8 @@
             "keyword": "Then ",
             "name": "the machine will prepare coffee",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 158168
             },
             "line": 13,
             "match": {
@@ -103,7 +104,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1234690548
+              "duration": 744904150
             },
             "hidden": true,
             "match": {
@@ -126,7 +127,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 106771
+              "duration": 90582
             },
             "line": 5,
             "match": {
@@ -139,7 +140,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 63702
+              "duration": 57535
             },
             "line": 6,
             "match": {
@@ -152,7 +153,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 78732
+              "duration": 54774
             },
             "line": 7,
             "match": {
@@ -165,7 +166,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 142298
+              "duration": 244929
             },
             "line": 10,
             "match": {
@@ -178,7 +179,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 43257
+              "duration": 56974
             },
             "line": 11,
             "match": {
@@ -191,7 +192,7 @@
             "name": "the user pays the 25 kr",
             "result": {
               "status": "passed",
-              "duration": 67099
+              "duration": 62142
             },
             "line": 12,
             "match": {
@@ -203,11 +204,12 @@
             "keyword": "Then ",
             "name": "the machine will prepare cappucino",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 132503
             },
             "line": 13,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:172"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:178"
             }
           },
           {
@@ -215,7 +217,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 723909796
+              "duration": 709971308
             },
             "hidden": true,
             "match": {
@@ -238,7 +240,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 88132
+              "duration": 86343
             },
             "line": 5,
             "match": {
@@ -251,7 +253,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 52525
+              "duration": 54098
             },
             "line": 6,
             "match": {
@@ -264,7 +266,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 52824
+              "duration": 49827
             },
             "line": 7,
             "match": {
@@ -277,7 +279,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 46267
+              "duration": 42272
             },
             "line": 10,
             "match": {
@@ -290,7 +292,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 30501
+              "duration": 31439
             },
             "line": 11,
             "match": {
@@ -303,7 +305,7 @@
             "name": "the user pays the 20 kr",
             "result": {
               "status": "passed",
-              "duration": 82005
+              "duration": 46578
             },
             "line": 12,
             "match": {
@@ -315,11 +317,12 @@
             "keyword": "Then ",
             "name": "the machine will prepare espresso",
             "result": {
-              "status": "pending"
+              "status": "passed",
+              "duration": 272847
             },
             "line": 13,
             "match": {
-              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:177"
+              "location": "/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/step-definitions/coffee-machine.js:189"
             }
           },
           {
@@ -327,7 +330,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 719435284
+              "duration": 819728983
             },
             "hidden": true,
             "match": {
