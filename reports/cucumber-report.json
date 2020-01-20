@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 806669
+              "duration": 843080
             },
             "line": 5,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 161499
+              "duration": 170415
             },
             "line": 6,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 538703
+              "duration": 278062
             },
             "line": 7,
             "match": {
@@ -53,7 +53,7 @@
             "name": "has enough coffeebeans to grind",
             "result": {
               "status": "passed",
-              "duration": 173520
+              "duration": 175601
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 263668
+              "duration": 176375
             },
             "line": 11,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the user pays the 20 kr",
             "result": {
               "status": "passed",
-              "duration": 273139
+              "duration": 192069
             },
             "line": 12,
             "match": {
@@ -92,7 +92,7 @@
             "name": "the machine will prepare coffee",
             "result": {
               "status": "passed",
-              "duration": 511135
+              "duration": 127929
             },
             "line": 13,
             "match": {
@@ -104,7 +104,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1669917769
+              "duration": 809209695
             },
             "hidden": true,
             "match": {
@@ -127,7 +127,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 107985
+              "duration": 126195
             },
             "line": 5,
             "match": {
@@ -140,7 +140,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 61160
+              "duration": 63824
             },
             "line": 6,
             "match": {
@@ -153,7 +153,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 60781
+              "duration": 65760
             },
             "line": 7,
             "match": {
@@ -166,7 +166,7 @@
             "name": "has enough coffeebeans to grind",
             "result": {
               "status": "passed",
-              "duration": 49877
+              "duration": 75158
             },
             "line": 10,
             "match": {
@@ -179,7 +179,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 38358
+              "duration": 48810
             },
             "line": 11,
             "match": {
@@ -192,7 +192,7 @@
             "name": "the user pays the 20 kr",
             "result": {
               "status": "passed",
-              "duration": 62526
+              "duration": 75661
             },
             "line": 12,
             "match": {
@@ -205,7 +205,7 @@
             "name": "the machine will prepare coffee w milk",
             "result": {
               "status": "passed",
-              "duration": 139420
+              "duration": 166520
             },
             "line": 13,
             "match": {
@@ -217,7 +217,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 722799807
+              "duration": 760869241
             },
             "hidden": true,
             "match": {
@@ -240,7 +240,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 411419
+              "duration": 143917
             },
             "line": 5,
             "match": {
@@ -253,7 +253,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 67553
+              "duration": 58990
             },
             "line": 6,
             "match": {
@@ -266,7 +266,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 205385
+              "duration": 56875
             },
             "line": 7,
             "match": {
@@ -279,7 +279,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 164984
+              "duration": 132685
             },
             "line": 10,
             "match": {
@@ -292,7 +292,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 44163
+              "duration": 33651
             },
             "line": 11,
             "match": {
@@ -305,7 +305,7 @@
             "name": "the user pays the 25 kr",
             "result": {
               "status": "passed",
-              "duration": 62990
+              "duration": 63846
             },
             "line": 12,
             "match": {
@@ -318,7 +318,7 @@
             "name": "the machine will prepare cappucino",
             "result": {
               "status": "passed",
-              "duration": 149850
+              "duration": 159402
             },
             "line": 13,
             "match": {
@@ -330,7 +330,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 888383323
+              "duration": 717466564
             },
             "hidden": true,
             "match": {
@@ -353,7 +353,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 114121
+              "duration": 96149
             },
             "line": 5,
             "match": {
@@ -366,7 +366,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 61139
+              "duration": 78330
             },
             "line": 6,
             "match": {
@@ -379,7 +379,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 53713
+              "duration": 62217
             },
             "line": 7,
             "match": {
@@ -392,7 +392,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 55015
+              "duration": 47772
             },
             "line": 10,
             "match": {
@@ -405,7 +405,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 54387
+              "duration": 48660
             },
             "line": 11,
             "match": {
@@ -418,7 +418,7 @@
             "name": "the user pays the 20 kr",
             "result": {
               "status": "passed",
-              "duration": 67973
+              "duration": 61662
             },
             "line": 12,
             "match": {
@@ -431,7 +431,7 @@
             "name": "the machine will prepare espresso",
             "result": {
               "status": "passed",
-              "duration": 166975
+              "duration": 160368
             },
             "line": 13,
             "match": {
@@ -443,7 +443,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 774313445
+              "duration": 772509657
             },
             "hidden": true,
             "match": {
@@ -466,7 +466,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 83441
+              "duration": 128562
             },
             "line": 5,
             "match": {
@@ -479,7 +479,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 48073
+              "duration": 59191
             },
             "line": 6,
             "match": {
@@ -492,7 +492,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 43564
+              "duration": 50418
             },
             "line": 7,
             "match": {
@@ -505,7 +505,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 45220
+              "duration": 42262
             },
             "line": 10,
             "match": {
@@ -518,7 +518,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 29294
+              "duration": 33201
             },
             "line": 11,
             "match": {
@@ -531,7 +531,7 @@
             "name": "the user pays the 25 kr",
             "result": {
               "status": "passed",
-              "duration": 54005
+              "duration": 46236
             },
             "line": 12,
             "match": {
@@ -544,7 +544,7 @@
             "name": "the machine will prepare macchiato",
             "result": {
               "status": "passed",
-              "duration": 137459
+              "duration": 283730
             },
             "line": 13,
             "match": {
@@ -556,7 +556,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 779510811
+              "duration": 880957460
             },
             "hidden": true,
             "match": {
@@ -579,7 +579,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 80275
+              "duration": 102626
             },
             "line": 5,
             "match": {
@@ -592,7 +592,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 49861
+              "duration": 61557
             },
             "line": 6,
             "match": {
@@ -605,7 +605,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 45928
+              "duration": 54280
             },
             "line": 7,
             "match": {
@@ -618,7 +618,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 46486
+              "duration": 47201
             },
             "line": 10,
             "match": {
@@ -631,7 +631,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 32100
+              "duration": 34232
             },
             "line": 11,
             "match": {
@@ -644,7 +644,7 @@
             "name": "the user pays the 30 kr",
             "result": {
               "status": "passed",
-              "duration": 57630
+              "duration": 59322
             },
             "line": 12,
             "match": {
@@ -657,7 +657,7 @@
             "name": "the machine will prepare latte",
             "result": {
               "status": "passed",
-              "duration": 189592
+              "duration": 155730
             },
             "line": 13,
             "match": {
@@ -669,7 +669,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 873313052
+              "duration": 774628780
             },
             "hidden": true,
             "match": {
@@ -692,7 +692,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 87959
+              "duration": 122516
             },
             "line": 5,
             "match": {
@@ -705,7 +705,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 44745
+              "duration": 54324
             },
             "line": 6,
             "match": {
@@ -718,7 +718,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 41426
+              "duration": 51377
             },
             "line": 7,
             "match": {
@@ -731,7 +731,7 @@
             "name": "has enough espressobeans to grind",
             "result": {
               "status": "passed",
-              "duration": 42210
+              "duration": 48398
             },
             "line": 10,
             "match": {
@@ -744,7 +744,7 @@
             "name": "the user chooses from the menu",
             "result": {
               "status": "passed",
-              "duration": 229230
+              "duration": 36352
             },
             "line": 11,
             "match": {
@@ -757,7 +757,7 @@
             "name": "the user pays the 30 kr",
             "result": {
               "status": "passed",
-              "duration": 51522
+              "duration": 65781
             },
             "line": 12,
             "match": {
@@ -770,7 +770,7 @@
             "name": "the machine will prepare cortado",
             "result": {
               "status": "passed",
-              "duration": 131046
+              "duration": 198806
             },
             "line": 13,
             "match": {
@@ -782,7 +782,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 930509973
+              "duration": 765411179
             },
             "hidden": true,
             "match": {
@@ -805,7 +805,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 230198
+              "duration": 104187
             },
             "line": 5,
             "match": {
@@ -818,7 +818,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 55468
+              "duration": 49577
             },
             "line": 6,
             "match": {
@@ -831,7 +831,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 64439
+              "duration": 52747
             },
             "line": 7,
             "match": {
@@ -844,7 +844,7 @@
             "name": "that the milk is cold enough",
             "result": {
               "status": "passed",
-              "duration": 224001
+              "duration": 225554
             },
             "line": 27,
             "match": {
@@ -857,7 +857,7 @@
             "name": "the user chooses a cappucino",
             "result": {
               "status": "passed",
-              "duration": 142770
+              "duration": 102140
             },
             "line": 28,
             "match": {
@@ -870,7 +870,7 @@
             "name": "pays the 25 kr",
             "result": {
               "status": "passed",
-              "duration": 143022
+              "duration": 114570
             },
             "line": 29,
             "match": {
@@ -883,7 +883,7 @@
             "name": "the machine will prepare, and serve, a delicious cappucino",
             "result": {
               "status": "passed",
-              "duration": 144293
+              "duration": 88158
             },
             "line": 30,
             "match": {
@@ -895,7 +895,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1197178299
+              "duration": 767107679
             },
             "hidden": true,
             "match": {
@@ -918,7 +918,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 123633
+              "duration": 117072
             },
             "line": 5,
             "match": {
@@ -931,7 +931,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 42741
+              "duration": 48220
             },
             "line": 6,
             "match": {
@@ -944,7 +944,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 40173
+              "duration": 49622
             },
             "line": 7,
             "match": {
@@ -957,7 +957,7 @@
             "name": "that the user wants to buy coffee",
             "result": {
               "status": "passed",
-              "duration": 158867
+              "duration": 222352
             },
             "line": 34,
             "match": {
@@ -970,7 +970,7 @@
             "name": "the user chooses coffee",
             "result": {
               "status": "passed",
-              "duration": 94319
+              "duration": 102137
             },
             "line": 35,
             "match": {
@@ -983,7 +983,7 @@
             "name": "the user pays using swish",
             "result": {
               "status": "passed",
-              "duration": 159887
+              "duration": 135877
             },
             "line": 36,
             "match": {
@@ -996,7 +996,7 @@
             "name": "the machine prepares coffee",
             "result": {
               "status": "passed",
-              "duration": 126624
+              "duration": 90823
             },
             "line": 37,
             "match": {
@@ -1008,7 +1008,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 870411590
+              "duration": 726497000
             },
             "hidden": true,
             "match": {
@@ -1031,7 +1031,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 410917
+              "duration": 94236
             },
             "line": 5,
             "match": {
@@ -1044,7 +1044,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 44524
+              "duration": 50469
             },
             "line": 6,
             "match": {
@@ -1057,7 +1057,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 46681
+              "duration": 49574
             },
             "line": 7,
             "match": {
@@ -1070,7 +1070,7 @@
             "name": "that the user wants to buy coffee",
             "result": {
               "status": "passed",
-              "duration": 52501
+              "duration": 50638
             },
             "line": 34,
             "match": {
@@ -1083,7 +1083,7 @@
             "name": "the user chooses coffee",
             "result": {
               "status": "passed",
-              "duration": 44567
+              "duration": 46309
             },
             "line": 35,
             "match": {
@@ -1096,7 +1096,7 @@
             "name": "the user pays using card",
             "result": {
               "status": "passed",
-              "duration": 144310
+              "duration": 158892
             },
             "line": 36,
             "match": {
@@ -1109,7 +1109,7 @@
             "name": "the machine prepares coffee",
             "result": {
               "status": "passed",
-              "duration": 44388
+              "duration": 65566
             },
             "line": 37,
             "match": {
@@ -1121,7 +1121,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 778056402
+              "duration": 717976150
             },
             "hidden": true,
             "match": {
@@ -1144,7 +1144,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 89648
+              "duration": 97363
             },
             "line": 5,
             "match": {
@@ -1157,7 +1157,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 59358
+              "duration": 50868
             },
             "line": 6,
             "match": {
@@ -1170,7 +1170,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 53475
+              "duration": 49340
             },
             "line": 7,
             "match": {
@@ -1183,7 +1183,7 @@
             "name": "that nobody buys coffee",
             "result": {
               "status": "passed",
-              "duration": 182817
+              "duration": 164072
             },
             "line": 46,
             "match": {
@@ -1196,7 +1196,7 @@
             "name": "that it has been 30 min since last cleaning",
             "result": {
               "status": "passed",
-              "duration": 176135
+              "duration": 129094
             },
             "line": 47,
             "match": {
@@ -1209,7 +1209,7 @@
             "name": "it will use steaming hot water",
             "result": {
               "status": "passed",
-              "duration": 122698
+              "duration": 199841
             },
             "line": 48,
             "match": {
@@ -1222,7 +1222,7 @@
             "name": "the machine will clean itself",
             "result": {
               "status": "passed",
-              "duration": 233622
+              "duration": 116015
             },
             "line": 49,
             "match": {
@@ -1235,7 +1235,7 @@
             "name": "it will take 1 minute",
             "result": {
               "status": "passed",
-              "duration": 149036
+              "duration": 134975
             },
             "line": 50,
             "match": {
@@ -1247,7 +1247,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 773583849
+              "duration": 716794635
             },
             "hidden": true,
             "match": {
@@ -1270,7 +1270,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 87928
+              "duration": 73854
             },
             "line": 5,
             "match": {
@@ -1283,7 +1283,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 48727
+              "duration": 40706
             },
             "line": 6,
             "match": {
@@ -1296,7 +1296,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 46923
+              "duration": 47180
             },
             "line": 7,
             "match": {
@@ -1309,7 +1309,7 @@
             "name": "that the user wants to buy coffee",
             "result": {
               "status": "passed",
-              "duration": 45443
+              "duration": 45045
             },
             "line": 53,
             "match": {
@@ -1339,7 +1339,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 719097425
+              "duration": 725426962
             },
             "hidden": true,
             "match": {
@@ -1362,7 +1362,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 84494
+              "duration": 85595
             },
             "line": 5,
             "match": {
@@ -1375,7 +1375,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 152692
+              "duration": 44382
             },
             "line": 6,
             "match": {
@@ -1388,7 +1388,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 48675
+              "duration": 50885
             },
             "line": 7,
             "match": {
@@ -1401,7 +1401,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 44684
+              "duration": 52836
             },
             "line": 58,
             "match": {
@@ -1440,7 +1440,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 781942811
+              "duration": 724678974
             },
             "hidden": true,
             "match": {
@@ -1463,7 +1463,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 127143
+              "duration": 97090
             },
             "line": 5,
             "match": {
@@ -1476,7 +1476,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 47565
+              "duration": 53193
             },
             "line": 6,
             "match": {
@@ -1489,7 +1489,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 59663
+              "duration": 51385
             },
             "line": 7,
             "match": {
@@ -1537,7 +1537,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 734373997
+              "duration": 727942827
             },
             "hidden": true,
             "match": {
@@ -1560,7 +1560,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 74298
+              "duration": 96688
             },
             "line": 5,
             "match": {
@@ -1573,7 +1573,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 56880
+              "duration": 52343
             },
             "line": 6,
             "match": {
@@ -1586,7 +1586,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 46119
+              "duration": 51189
             },
             "line": 7,
             "match": {
@@ -1634,7 +1634,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 776071679
+              "duration": 729302527
             },
             "hidden": true,
             "match": {
@@ -1657,7 +1657,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 88930
+              "duration": 83316
             },
             "line": 5,
             "match": {
@@ -1670,7 +1670,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 60586
+              "duration": 48156
             },
             "line": 6,
             "match": {
@@ -1683,7 +1683,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 46422
+              "duration": 47752
             },
             "line": 7,
             "match": {
@@ -1740,7 +1740,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 730947880
+              "duration": 729131512
             },
             "hidden": true,
             "match": {
@@ -1763,7 +1763,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 75735
+              "duration": 90874
             },
             "line": 5,
             "match": {
@@ -1776,7 +1776,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 47793
+              "duration": 52220
             },
             "line": 6,
             "match": {
@@ -1789,7 +1789,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 42469
+              "duration": 66183
             },
             "line": 7,
             "match": {
@@ -1846,7 +1846,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 830834539
+              "duration": 722470987
             },
             "hidden": true,
             "match": {
@@ -1869,7 +1869,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 86645
+              "duration": 92219
             },
             "line": 5,
             "match": {
@@ -1882,7 +1882,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 46252
+              "duration": 50708
             },
             "line": 6,
             "match": {
@@ -1895,7 +1895,7 @@
             "name": "that the machine has lactosfree milk",
             "result": {
               "status": "passed",
-              "duration": 45053
+              "duration": 49303
             },
             "line": 7,
             "match": {
@@ -1952,7 +1952,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 756524058
+              "duration": 771047785
             },
             "hidden": true,
             "match": {

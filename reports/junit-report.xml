@@ -5,39 +5,19 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000806669">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00084308">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000161499">
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000170415">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000538703">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000278062">
         </testcase>
-        <testcase name="Given has enough coffeebeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00017352">
+        <testcase name="Given has enough coffeebeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000175601">
         </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000263668">
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000176375">
         </testcase>
-        <testcase name="And the user pays the 20 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000273139">
+        <testcase name="And the user pays the 20 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000192069">
         </testcase>
-        <testcase name="Then the machine will prepare coffee" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000511135">
-        </testcase>
-    </testsuite>
-    <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000107985">
-        </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00006116">
-        </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000060781">
-        </testcase>
-        <testcase name="Given has enough coffeebeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000049877">
-        </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000038358">
-        </testcase>
-        <testcase name="And the user pays the 20 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000062526">
-        </testcase>
-        <testcase name="Then the machine will prepare coffee w milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00013942">
+        <testcase name="Then the machine will prepare coffee" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000127929">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
@@ -45,39 +25,19 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000411419">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000126195">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000067553">
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000063824">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000205385">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00006576">
         </testcase>
-        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000164984">
+        <testcase name="Given has enough coffeebeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000075158">
         </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000044163">
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00004881">
         </testcase>
-        <testcase name="And the user pays the 25 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00006299">
+        <testcase name="And the user pays the 20 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000075661">
         </testcase>
-        <testcase name="Then the machine will prepare cappucino" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00014985">
-        </testcase>
-    </testsuite>
-    <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000114121">
-        </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000061139">
-        </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000053713">
-        </testcase>
-        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000055015">
-        </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000054387">
-        </testcase>
-        <testcase name="And the user pays the 20 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000067973">
-        </testcase>
-        <testcase name="Then the machine will prepare espresso" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000166975">
+        <testcase name="Then the machine will prepare coffee w milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00016652">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
@@ -85,39 +45,19 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000083441">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000143917">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000048073">
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00005899">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000043564">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000056875">
         </testcase>
-        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00004522">
+        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000132685">
         </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000029294">
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000033651">
         </testcase>
-        <testcase name="And the user pays the 25 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000054005">
+        <testcase name="And the user pays the 25 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000063846">
         </testcase>
-        <testcase name="Then the machine will prepare macchiato" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000137459">
-        </testcase>
-    </testsuite>
-    <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000080275">
-        </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000049861">
-        </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000045928">
-        </testcase>
-        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000046486">
-        </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.0000321">
-        </testcase>
-        <testcase name="And the user pays the 30 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00005763">
-        </testcase>
-        <testcase name="Then the machine will prepare latte" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000189592">
+        <testcase name="Then the machine will prepare cappucino" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000159402">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
@@ -125,19 +65,79 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000087959">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000096149">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000044745">
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00007833">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000041426">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000062217">
         </testcase>
-        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00004221">
+        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000047772">
         </testcase>
-        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00022923">
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00004866">
         </testcase>
-        <testcase name="And the user pays the 30 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000051522">
+        <testcase name="And the user pays the 20 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000061662">
         </testcase>
-        <testcase name="Then the machine will prepare cortado" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000131046">
+        <testcase name="Then the machine will prepare espresso" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000160368">
+        </testcase>
+    </testsuite>
+    <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000128562">
+        </testcase>
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000059191">
+        </testcase>
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000050418">
+        </testcase>
+        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000042262">
+        </testcase>
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000033201">
+        </testcase>
+        <testcase name="And the user pays the 25 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000046236">
+        </testcase>
+        <testcase name="Then the machine will prepare macchiato" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00028373">
+        </testcase>
+    </testsuite>
+    <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000102626">
+        </testcase>
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000061557">
+        </testcase>
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00005428">
+        </testcase>
+        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000047201">
+        </testcase>
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000034232">
+        </testcase>
+        <testcase name="And the user pays the 30 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000059322">
+        </testcase>
+        <testcase name="Then the machine will prepare latte" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.00015573">
+        </testcase>
+    </testsuite>
+    <testsuite name="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000122516">
+        </testcase>
+        <testcase name="And that water is available" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000054324">
+        </testcase>
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000051377">
+        </testcase>
+        <testcase name="Given has enough espressobeans to grind" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000048398">
+        </testcase>
+        <testcase name="When the user chooses from the menu" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000036352">
+        </testcase>
+        <testcase name="And the user pays the 30 kr" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000065781">
+        </testcase>
+        <testcase name="Then the machine will prepare cortado" classname="coffee-machine;use-coffee-machine-to-buy-different-sorts-of-coffee" time="0.000198806">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;buying-a-cappucino" tests="7" failures="0" skipped="0">
@@ -145,39 +145,19 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;buying-a-cappucino" time="0.000230198">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;buying-a-cappucino" time="0.000104187">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;buying-a-cappucino" time="0.000055468">
+        <testcase name="And that water is available" classname="coffee-machine;buying-a-cappucino" time="0.000049577">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;buying-a-cappucino" time="0.000064439">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;buying-a-cappucino" time="0.000052747">
         </testcase>
-        <testcase name="Given that the milk is cold enough" classname="coffee-machine;buying-a-cappucino" time="0.000224001">
+        <testcase name="Given that the milk is cold enough" classname="coffee-machine;buying-a-cappucino" time="0.000225554">
         </testcase>
-        <testcase name="When the user chooses a cappucino" classname="coffee-machine;buying-a-cappucino" time="0.00014277">
+        <testcase name="When the user chooses a cappucino" classname="coffee-machine;buying-a-cappucino" time="0.00010214">
         </testcase>
-        <testcase name="And pays the 25 kr" classname="coffee-machine;buying-a-cappucino" time="0.000143022">
+        <testcase name="And pays the 25 kr" classname="coffee-machine;buying-a-cappucino" time="0.00011457">
         </testcase>
-        <testcase name="Then the machine will prepare, and serve, a delicious cappucino" classname="coffee-machine;buying-a-cappucino" time="0.000144293">
-        </testcase>
-    </testsuite>
-    <testsuite name="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000123633">
-        </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000042741">
-        </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000040173">
-        </testcase>
-        <testcase name="Given that the user wants to buy coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000158867">
-        </testcase>
-        <testcase name="When the user chooses coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000094319">
-        </testcase>
-        <testcase name="And the user pays using swish" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000159887">
-        </testcase>
-        <testcase name="Then the machine prepares coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000126624">
+        <testcase name="Then the machine will prepare, and serve, a delicious cappucino" classname="coffee-machine;buying-a-cappucino" time="0.000088158">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" tests="7" failures="0" skipped="0">
@@ -185,19 +165,39 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000410917">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000117072">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000044524">
+        <testcase name="And that water is available" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.00004822">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000046681">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000049622">
         </testcase>
-        <testcase name="Given that the user wants to buy coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000052501">
+        <testcase name="Given that the user wants to buy coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000222352">
         </testcase>
-        <testcase name="When the user chooses coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000044567">
+        <testcase name="When the user chooses coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000102137">
         </testcase>
-        <testcase name="And the user pays using card" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.00014431">
+        <testcase name="And the user pays using swish" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000135877">
         </testcase>
-        <testcase name="Then the machine prepares coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000044388">
+        <testcase name="Then the machine prepares coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000090823">
+        </testcase>
+    </testsuite>
+    <testsuite name="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000094236">
+        </testcase>
+        <testcase name="And that water is available" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000050469">
+        </testcase>
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000049574">
+        </testcase>
+        <testcase name="Given that the user wants to buy coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000050638">
+        </testcase>
+        <testcase name="When the user chooses coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000046309">
+        </testcase>
+        <testcase name="And the user pays using card" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000158892">
+        </testcase>
+        <testcase name="Then the machine prepares coffee" classname="coffee-machine;paying-for-coffee-when-user-forgot-his/hers-wallet" time="0.000065566">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" tests="8" failures="0" skipped="0">
@@ -205,21 +205,21 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000089648">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000097363">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000059358">
+        <testcase name="And that water is available" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000050868">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000053475">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.00004934">
         </testcase>
-        <testcase name="Given that nobody buys coffee" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000182817">
+        <testcase name="Given that nobody buys coffee" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000164072">
         </testcase>
-        <testcase name="And that it has been 30 min since last cleaning" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000176135">
+        <testcase name="And that it has been 30 min since last cleaning" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000129094">
         </testcase>
-        <testcase name="Then it will use steaming hot water" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000122698">
+        <testcase name="Then it will use steaming hot water" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000199841">
         </testcase>
-        <testcase name="And the machine will clean itself" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000233622">
+        <testcase name="And the machine will clean itself" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000116015">
         </testcase>
-        <testcase name="And it will take 1 minute" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000149036">
+        <testcase name="And it will take 1 minute" classname="coffee-machine;the-coffee-machine-is-cleaning-itself-between-uses" time="0.000134975">
         </testcase>
     </testsuite>
     <testsuite name="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" tests="6" failures="0" skipped="2">
@@ -227,13 +227,13 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000087928">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000073854">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000048727">
+        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000040706">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000046923">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.00004718">
         </testcase>
-        <testcase name="Given that the user wants to buy coffee" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000045443">
+        <testcase name="Given that the user wants to buy coffee" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine" time="0.000045045">
         </testcase>
         <testcase name="When the user sees that the machine isn&apos;t connected to water" classname="coffee-machine;user-wants-to-buy-coffee-but-there-is-no-water-connected-to-machine">
             <skipped message="">
@@ -249,13 +249,13 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000084494">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000085595">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000152692">
+        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000044382">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000048675">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000050885">
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000044684">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-tea-water" time="0.000052836">
         </testcase>
         <testcase name="And that the machine is connected to water" classname="coffee-machine;user-wants-to-buy-tea-water">
             <skipped message="">
@@ -275,11 +275,11 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing" time="0.000127143">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing" time="0.00009709">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing" time="0.000047565">
+        <testcase name="And that water is available" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing" time="0.000053193">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing" time="0.000059663">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing" time="0.000051385">
         </testcase>
         <testcase name="Given the user paid and chose coffee" classname="coffee-machine;user-buys-coffee-and-changes-his/her-mind-in-the-middle-of-brewing">
             <skipped message="">
@@ -303,11 +303,11 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder" time="0.000074298">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder" time="0.000096688">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder" time="0.00005688">
+        <testcase name="And that water is available" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder" time="0.000052343">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder" time="0.000046119">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder" time="0.000051189">
         </testcase>
         <testcase name="Given that user doesn&apos;t have all goats in the pen" classname="coffee-machine;user-puts-his/her-hand-down-the-coffee-bean-grinder">
             <skipped message="">
@@ -331,11 +331,11 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;there-is-an-electricity-shortage" time="0.00008893">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;there-is-an-electricity-shortage" time="0.000083316">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;there-is-an-electricity-shortage" time="0.000060586">
+        <testcase name="And that water is available" classname="coffee-machine;there-is-an-electricity-shortage" time="0.000048156">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;there-is-an-electricity-shortage" time="0.000046422">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;there-is-an-electricity-shortage" time="0.000047752">
         </testcase>
         <testcase name="Given that user wants to buy cappucino with card" classname="coffee-machine;there-is-an-electricity-shortage">
             <skipped message="">
@@ -363,11 +363,11 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans" time="0.000075735">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans" time="0.000090874">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans" time="0.000047793">
+        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans" time="0.00005222">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans" time="0.000042469">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans" time="0.000066183">
         </testcase>
         <testcase name="Given that the user wants coffee" classname="coffee-machine;user-wants-to-buy-regular-coffee-but-there-is-not-enough-beans">
             <skipped message="">
@@ -395,11 +395,11 @@
             <property name="URI" value="/Users/lisa/Desktop/JavaScript-kurs/coffeeMachine/cucumber-exempel-2/coffee-machine/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left" time="0.000086645">
+        <testcase name="Given that the machine is plugged in" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left" time="0.000092219">
         </testcase>
-        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left" time="0.000046252">
+        <testcase name="And that water is available" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left" time="0.000050708">
         </testcase>
-        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left" time="0.000045053">
+        <testcase name="And that the machine has lactosfree milk" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left" time="0.000049303">
         </testcase>
         <testcase name="Given that user want drink with milk" classname="coffee-machine;user-wants-to-buy-a-drink-which-contains-milk,-but-there-is-not-enough-milk-left">
             <skipped message="">
